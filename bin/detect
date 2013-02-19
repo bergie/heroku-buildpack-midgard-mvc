@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -f $1/application.yml ]; then
+  echo "Midgard MVC"
+  exit 0
+else
+  exit 1
+fi
